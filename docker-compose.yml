@@ -2,28 +2,22 @@ version: '3'
 
 services:
 
-  nginx:
-    container_name: ieducar-nginx
-    build: docker/nginx
-    links:
-      - php
+  web:
+    image: educar
+#    volumes:
+#      - ./:/var/www/html
     ports:
-      - 80
-    working_dir: /var/www/ieducar
-    volumes:
-      - ./:/var/www/ieducar
-
-  php:
-    container_name: ieducar-php
-    build: docker/php
+      - 8080:80
+    environment:
+      DB_CONNECTION: 'pgsql'
+      DB_HOST: 'postgres'
+      DB_PORT: '5432'
+      DB_DATABASE: 'ieducar'
+      DB_USERNAME: 'ieducar'
+      DB_PASSWORD: 'ieducar'
     links:
       - postgres
       - redis
-    environment:
-      PGPASSWORD: ieducar
-    working_dir: /var/www/ieducar
-    volumes:
-      - ./:/var/www/ieducar
 
   postgres:
     container_name: ieducar-postgres
@@ -34,8 +28,8 @@ services:
       POSTGRES_PASSWORD: ieducar
     ports:
       - 5432
-    volumes:
-      - ./database/data:/var/lib/postgresql/data
+#    volumes:
+#      - ./database/data:/var/lib/postgresql/data
 
   redis:
     container_name: ieducar-redis

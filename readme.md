@@ -129,13 +129,17 @@ Faça o build das imagens Docker utilizadas no projeto (pode levar alguns
 minutos) e inicie os containers da aplicação:
 
 ```bash
+docker build -t educar .
+```
+
+```bash
 docker-compose up -d --build
 ```
 
 Execute o comando para fazer uma nova instalação:
 
 ```bash
-docker-compose exec php composer new-install
+docker exec -it educar composer new-install
 ```
 
 #### Primeiro acesso
