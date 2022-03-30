@@ -6,13 +6,9 @@ i-educar é um produto da Portabilis
 # Fácil instalação do i-educar
 
 **Fork  SoftagonSistemas/i-educar**
-
-```
-[![Vídeo instalando](https://img.youtube.com/vi/V86jn2dOtRw/0.jpg)](https://www.youtube.com/watch?v=V86jn2dOtRw)
-```
-
-https://github.com/SoftagonSistemas/i-educar
-
+ 
+[![Instalando o i-educar para escolas](https://yt-embed.herokuapp.com/embed?v=V86jn2dOtRw)](https://www.youtube.com/watch?v=V86jn2dOtRw "Software para escolas públicas")
+ 
 ## Pré-instalação
 
 Para conseguirmos produzir uma versão de fácil instalação, fomos obrigados a tirar uma cópia do repositório oficial e ajustar alguns arquivos.
