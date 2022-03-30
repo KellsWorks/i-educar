@@ -1,10 +1,15 @@
-# Comando para importar o banco de dados
 
-` psql -h localhost -p 15432 -U ieducar -d araripina < araripina.sql `
+i-educar é um produto da Portabilis
+
+<sup>Este não é o repositório oficial</sup>
 
 # Fácil instalação do i-educar
 
-**Fork SoftagonSistemas/i-educar**
+**Fork  SoftagonSistemas/i-educar**
+
+```
+[![Vídeo instalando](https://img.youtube.com/vi/V86jn2dOtRw/0.jpg)](https://www.youtube.com/watch?v=V86jn2dOtRw)
+```
 
 https://github.com/SoftagonSistemas/i-educar
 
@@ -14,7 +19,7 @@ Para conseguirmos produzir uma versão de fácil instalação, fomos obrigados a
 
 ## Dúvidas ou melhorias
 
-Caso queira contribuir ou sanar dúvidas, por favor escreva uma _issue_ neste endereço:
+Caso queira contribuir ou sanar dúvidas, por favor escreva uma *issue* neste endereço:
 
 https://github.com/SoftagonSistemas/i-educar/issues
 
@@ -71,25 +76,22 @@ volumes:
 networks:
   softagon:
 ```
-
 ## Pós-instalação
+Após executar seu docker-compose.yml , será necessário executar o script de instalação padrão. 
+<sup>*Um script foi feito para testar se o banco já está rodando*</sup>
 
-Após executar seu docker-compose.yml , será necessário executar o script de instalação padrão.
-<sup>_Um script foi feito para testar se o banco já está rodando_</sup>
+ 1. Digite docker compose up -d
+ 2. Faça login no container **ieducar-softagon**
+		`docker exec -it ieducar-softagon /bin/sh`
+ 3. Execute o comando ./entrypoint.sh
+		`chown root.root entrypoint.sh`
+		`chmod +x entrypoint.sh`
+		`./entrypoint.sh`
 
-1.  Digite docker compose up -d
-2.  Faça login no container **ieducar-softagon**
-    `docker exec -it ieducar-softagon /bin/sh`
-3.  Execute o comando ./entrypoint.sh
-    `chown root.root entrypoint.sh`
-    `chmod +x entrypoint.sh`
-    `./entrypoint.sh`
+Após executar o entrypoint.sh a instalação haverá ocorrido, e poderá acessar o serviço em http://localhost:8080/ 
 
-Após executar o entrypoint.sh a instalação haverá ocorrido, e poderá acessar o serviço em http://localhost:8080/
-
-## Tags
-
-No momento estamos na versão beta.
+## Tags  
+No momento estamos na versão beta. 
 [softagon/i-educar:beta](https://hub.docker.com/r/softagon/i-educar)
 
-##### Dúvidas? Escreve para Softagon.com.br
+##### Dúvidas? Escreve para  Softagon.com.br
