@@ -1,39 +1,49 @@
 version: '3'
-
 services:
-
   web:
-    image: educar
-#    volumes:
-#      - ./:/var/www/html
+    container_name: ieducar-softagon
+    image: softagon/i-educar:beta
+    volumes:
+      - ./:/var/www/html:rw
     ports:
       - 8080:80
+    networks:
+      - softagonsistemas
     environment:
       DB_CONNECTION: 'pgsql'
       DB_HOST: 'postgres'
       DB_PORT: '5432'
-      DB_DATABASE: 'ieducar'
+      DB_DATABASE: 'softagon'
       DB_USERNAME: 'ieducar'
       DB_PASSWORD: 'ieducar'
+
+      API_ACCESS_KEY: 'softagon'
+      API_SECRET_KEY: 'fjInsiRGr2@3H'
     links:
       - postgres
       - redis
-
   postgres:
-    container_name: ieducar-postgres
-    image: postgres:alpine
+    container_name: ieducar-postgress
+    image: postgres:13.6-alpine
     environment:
-      POSTGRES_DB: ieducar
+      POSTGRES_DB: softagon
       POSTGRES_USER: ieducar
       POSTGRES_PASSWORD: ieducar
     ports:
       - 5432
-#    volumes:
-#      - ./database/data:/var/lib/postgresql/data
-
+    volumes:
+      - pgdataa:/var/lib/postgresql/data
+    networks:
+      - softagonsistemas
   redis:
-    container_name: ieducar-redis
+    container_name: ieducar-rediss
     image: redis:alpine
     restart: always
     ports:
       - 6379
+    networks:
+      - softagonsistemas
+volumes:
+  pgdataa:
+networks:
+  softagonsistemas:
