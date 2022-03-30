@@ -240,7 +240,7 @@ return new class extends clsCadastro {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Calendario Ano Letivo';
+        $this->title = 'SoftagonEducation - Calendario Ano Letivo';
         $this->processoAp = '620';
     }
 };

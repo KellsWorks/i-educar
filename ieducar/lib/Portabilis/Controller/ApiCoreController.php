@@ -234,7 +234,7 @@ class ApiCoreController extends Core_Controller_Page_EditController
             }
         } catch (iEducarException $exception) {
 
-            // Todos os erros do i-Educar serão pegos neste catch para
+            // Todos os erros do SoftagonEducation serão pegos neste catch para
             // futuramente movermos para um Exception Handler
 
             $this->messenger->append($exception->getMessage(), 'error', true);

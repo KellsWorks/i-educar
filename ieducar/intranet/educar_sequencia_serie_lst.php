@@ -186,7 +186,7 @@ return new class extends clsListagem {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Sequência Enturmação';
+        $this->title = 'SoftagonEducation - Sequência Enturmação';
         $this->processoAp = 587;
     }
 };

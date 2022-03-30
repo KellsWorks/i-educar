@@ -229,7 +229,7 @@ return new class extends clsListagem {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Aluno';
+        $this->title = 'SoftagonEducation - Aluno';
         $this->processoAp = '578';
     }
 };

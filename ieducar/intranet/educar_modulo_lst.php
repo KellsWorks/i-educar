@@ -120,7 +120,7 @@ return new class extends clsListagem {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Etapa';
+        $this->title = 'SoftagonEducation - Etapa';
         $this->processoAp = '584';
     }
 };

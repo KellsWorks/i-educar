@@ -59,7 +59,7 @@ return new class extends clsDetalhe {
 
     public function Formular()
     {
-        $this->titulo = 'i-Educar - Coffebreak Tipo';
+        $this->titulo = 'SoftagonEducation - Coffebreak Tipo';
         $this->processoAp = '564';
     }
 };

@@ -260,7 +260,7 @@ return new class extends clsCadastro {
             'cargo' => $escola,
             'telefone' => $this->telefone ? "$this->ddd_telefone $this->telefone" : null,
             'celular' => $this->celular ? "$this->ddd_celular $this->celular" : null,
-            'Assuntos de interesse' => $this->receber_novidades ? 'Todos os assuntos relacionados ao i-Educar' : 'Nenhum',
+            'Assuntos de interesse' => $this->receber_novidades ? 'Todos os assuntos relacionados ao SoftagonEducation' : 'Nenhum',
             'Permite relacionamento direto no pós-venda?' => $permiteRelacionamentoPosvendas,
         ];
 

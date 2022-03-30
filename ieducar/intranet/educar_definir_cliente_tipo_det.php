@@ -91,7 +91,7 @@ return new class extends clsDetalhe {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Cliente';
+        $this->title = 'SoftagonEducation - Cliente';
         $this->processoAp = '623';
     }
 };

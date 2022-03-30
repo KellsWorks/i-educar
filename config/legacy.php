@@ -9,7 +9,7 @@ return [
     |
     | This value determines which application is running. Default is the new
     | version using Laravel structure. Another case your application is running
-    | using i-Educar legacy code.
+    | using SoftagonEducation legacy code.
     |
     */
 
@@ -44,7 +44,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | List of paths that contains migrations of the other repositories or
-    | packages that works with i-Educar.
+    | packages that works with SoftagonEducation.
     |
     */
 
@@ -65,7 +65,7 @@ return [
     ],
 
     'app' => [
-        'name' => env('APP_NAME', 'i-Educar'),
+        'name' => env('APP_NAME', 'SoftagonEducation'),
         'diario' => [
             'nomenclatura_exame' => '0',
         ],
@@ -90,7 +90,7 @@ return [
                 'instituicao' => 'Prefeitura Municipal',
             ],
             'pdf' => [
-                'titulo' => 'Relatório i-Educar',
+                'titulo' => 'Relatório SoftagonEducation',
                 'logo' => '',
             ],
             'layout' => 'login.tpl',

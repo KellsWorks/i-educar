@@ -88,7 +88,7 @@ return new class extends clsListagem {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Escolaridade do servidor';
+        $this->title = 'SoftagonEducation - Escolaridade do servidor';
         $this->processoAp = '632';
     }
 };

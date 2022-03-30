@@ -206,7 +206,7 @@ return new class extends clsDetalhe {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Reserva Vaga';
+        $this->title = 'SoftagonEducation - Reserva Vaga';
         $this->processoAp = '639';
     }
 };

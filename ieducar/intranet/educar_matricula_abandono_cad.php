@@ -74,7 +74,7 @@ return new class extends clsCadastro {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Abandono Matrícula';
+        $this->title = 'SoftagonEducation - Abandono Matrícula';
         $this->processoAp = '578';
     }
 };

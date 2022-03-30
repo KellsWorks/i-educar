@@ -119,7 +119,7 @@ return new class extends clsCadastro {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Tipo de ambiente';
+        $this->title = 'SoftagonEducation - Tipo de ambiente';
         $this->processoAp = '572';
     }
 };

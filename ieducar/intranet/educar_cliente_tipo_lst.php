@@ -144,7 +144,7 @@ return new class extends clsListagem {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Tipo Cliente ';
+        $this->title = 'SoftagonEducation - Tipo Cliente ';
         $this->processoAp = '596';
     }
 };

@@ -18,7 +18,7 @@ class AtualizaNomenclaturaDeCategorias extends Migration
             UPDATE settings_categories
             SET name = (
                 CASE name
-                    WHEN \'Integração entre iEducar e iDiário\' THEN \'Integração entre i-Educar e i-Diário\'
+                    WHEN \'Integração entre iEducar e iDiário\' THEN \'Integração entre SoftagonEducation e i-Diário\'
                     ELSE settings_categories.name
                 END
             );

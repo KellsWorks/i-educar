@@ -20,7 +20,7 @@ class PopulateSettingsCategoriesTable extends Migration
                 'updated_at' => date('Y-m-d H:i:s'),
             ],
             [
-                'name' => 'Integração entre i-Educar e i-Diário',
+                'name' => 'Integração entre SoftagonEducation e i-Diário',
                 'enabled' => true,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s'),

@@ -29,7 +29,7 @@ class LegacyController extends Controller
     }
 
     /**
-     * Return i-Educar legacy code path.
+     * Return SoftagonEducation legacy code path.
      *
      * @return string
      */

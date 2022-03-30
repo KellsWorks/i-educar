@@ -178,7 +178,7 @@ JS;
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Consulta de movimento geral';
+        $this->title = 'SoftagonEducation - Consulta de movimento geral';
         $this->processoAp = 9998900;
     }
 };

@@ -112,7 +112,7 @@ return new class extends clsCadastro {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Tipo Ocorr&ecirc;ncia Disciplinar';
+        $this->title = 'SoftagonEducation - Tipo Ocorr&ecirc;ncia Disciplinar';
         $this->processoAp = '580';
     }
 };

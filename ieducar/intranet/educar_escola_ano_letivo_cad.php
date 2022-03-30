@@ -107,7 +107,7 @@ return new class extends clsCadastro {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Escola Ano Letivo';
+        $this->title = 'SoftagonEducation - Escola Ano Letivo';
         $this->processoAp = 561;
     }
 };

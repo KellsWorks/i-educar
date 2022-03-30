@@ -63,7 +63,7 @@ return new class extends clsDetalhe {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Nivel Ensino';
+        $this->title = 'SoftagonEducation - Nivel Ensino';
         $this->processoAp = '571';
     }
 };

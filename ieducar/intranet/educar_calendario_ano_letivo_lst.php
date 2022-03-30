@@ -476,7 +476,7 @@ return new class extends clsListagem {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Calendários';
+        $this->title = 'SoftagonEducation - Calendários';
         $this->processoAp = 620;
     }
 };

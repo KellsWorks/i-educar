@@ -214,7 +214,7 @@ return new class extends clsListagem {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Reservas';
+        $this->title = 'SoftagonEducation - Reservas';
         $this->processoAp = '609';
     }
 };

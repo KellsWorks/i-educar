@@ -139,7 +139,7 @@ return new class extends clsCadastro {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Calend&aacute;rio Dia Motivo';
+        $this->title = 'SoftagonEducation - Calend&aacute;rio Dia Motivo';
         $this->processoAp = '576';
     }
 };

@@ -130,7 +130,7 @@ return new class extends clsListagem {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Busca ativa';
+        $this->title = 'SoftagonEducation - Busca ativa';
         $this->processoAp = Process::ACTIVE_LOOKING;
     }
 };

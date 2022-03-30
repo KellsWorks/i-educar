@@ -107,7 +107,7 @@ return new class extends clsListagem {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Benefício do aluno';
+        $this->title = 'SoftagonEducation - Benefício do aluno';
         $this->processoAp = '581';
     }
 };

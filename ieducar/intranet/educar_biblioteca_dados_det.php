@@ -152,7 +152,7 @@ return new class extends clsDetalhe {
 
     public function Formular()
     {
-        $this->titulo = 'i-Educar - Dados Biblioteca';
+        $this->titulo = 'SoftagonEducation - Dados Biblioteca';
         $this->processoAp = '629';
     }
 };

@@ -138,7 +138,7 @@ return new class extends clsCadastro {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Iniciar/Finalizar Ano Letivo';
+        $this->title = 'SoftagonEducation - Iniciar/Finalizar Ano Letivo';
         $this->processoAp = '561';
     }
 };

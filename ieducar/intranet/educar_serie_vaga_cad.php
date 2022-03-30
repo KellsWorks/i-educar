@@ -162,7 +162,7 @@ return new class extends clsCadastro {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Vagas por sÃ©rie';
+        $this->title = 'SoftagonEducation - Vagas por sÃ©rie';
         $this->processoAp = 21253;
     }
 };

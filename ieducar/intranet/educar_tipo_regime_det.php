@@ -64,7 +64,7 @@ return new class extends clsDetalhe {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Tipo Regime';
+        $this->title = 'SoftagonEducation - Tipo Regime';
         $this->processoAp = '568';
     }
 };

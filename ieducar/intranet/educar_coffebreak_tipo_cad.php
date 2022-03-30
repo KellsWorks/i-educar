@@ -117,7 +117,7 @@ return new class extends clsCadastro {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Coffebreak Tipo';
+        $this->title = 'SoftagonEducation - Coffebreak Tipo';
         $this->processoAp = '564';
     }
 };

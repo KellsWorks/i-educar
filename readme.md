@@ -1,6 +1,6 @@
-i-educar é um produto da Portabilis
+# Comando para importar o banco de dados
 
-<sup>Este não é o repositório oficial</sup>
+` psql -h localhost -p 15432 -U ieducar -d araripina < araripina.sql `
 
 # Fácil instalação do i-educar
 

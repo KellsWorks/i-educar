@@ -99,7 +99,7 @@ if ($isInstalled) {
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Instalador do i-Educar</title>
+        <title>Instalador do SoftagonEducation</title>
         <meta name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet"
@@ -113,16 +113,16 @@ if ($isInstalled) {
     <body>
         <div class="container">
             <header>
-                <p><img src="svg/logo_horizontal.svg" alt="i-Educar"></p>
-                <h1>i-Educar</h1>
-                <p>Bem-vindo ao instalador do i-Educar!<br>Siga os passos abaixo
+                <p><img src="svg/logo_horizontal.svg" alt="SoftagonEducation"></p>
+                <h1>SoftagonEducation</h1>
+                <p>Bem-vindo ao instalador do SoftagonEducation!<br>Siga os passos abaixo
                     para realizar a instalação.</p>
             </header>
 
             <?php if ($isInstalled): ?>
                 <div class="module">
                     <h2><?= boolIcon(true) ?> Tudo ok</h2>
-                    <p>O i-Educar ja está instalado!</p>
+                    <p>O SoftagonEducation ja está instalado!</p>
                     <p>A versão instalada é:
                         <strong><?= $currIeducarVersion ?></strong></p>
 
@@ -141,7 +141,7 @@ if ($isInstalled) {
                         <p>Você esta usando a versão mais recente.</p>
                         <p>
                             <a href="/intranet/index.php">
-                                Clique aqui para acessar o i-Educar
+                                Clique aqui para acessar o SoftagonEducation
                             </a>
                         </p>
                     <?php endif; ?>
@@ -175,7 +175,7 @@ if ($isInstalled) {
                 <div class="module extensions">
                     <h2><?= boolIcon($extensionsCheck) ?> Extensões PHP</h2>
 
-                    <p>O i-Educar necessita que as seguintes extensões estejam
+                    <p>O SoftagonEducation necessita que as seguintes extensões estejam
                         presentes no sistema:</p>
 
                     <ul>
@@ -223,7 +223,7 @@ vim .env # use seu editor de texto favorito
                     </h2>
 
                     <?php if ($dbCheck): ?>
-                        <p>O i-Educar consegue se comunicar com o banco de dados
+                        <p>O SoftagonEducation consegue se comunicar com o banco de dados
                             corretamente.</p>
                     <?php else: ?>
                         <p>Não foi possível estabelecer comunicação com o banco
@@ -312,7 +312,7 @@ chmod -R 777 <?= $path . "\n" ?>
                         </h2>
 
                         <p>Corrija os problemas descritos anteriormente para
-                            poder instalar o i-Educar.</p>
+                            poder instalar o SoftagonEducation.</p>
 
                         <p>
                             <button onclick="document.location.reload(true);">

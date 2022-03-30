@@ -53,7 +53,7 @@ return new class extends clsDetalhe {
 
     public function Formular()
     {
-        $this->title = 'i-Educar - Motivo Baixa';
+        $this->title = 'SoftagonEducation - Motivo Baixa';
         $this->processoAp = '600';
     }
 };
