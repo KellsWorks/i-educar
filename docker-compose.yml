@@ -4,7 +4,7 @@ services:
 
   web:
     container_name: ieducar-softagon
-    image: i-educar:beta
+    image: softagon/i-educar:beta
     volumes:
       - ./:/var/www/html:rw
     ports:
@@ -46,6 +46,7 @@ services:
       - 6379
     networks:
       - softagon
+
 volumes:
   pgdata:
 networks:
